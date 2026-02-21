@@ -250,6 +250,7 @@ class LoginPageView extends GetView<LoginPageController> {
           onTap: () {
             // Handle login
             controller.login();
+            // print('ini dari tombol login');
           },
           borderRadius: BorderRadius.circular(12),
           child: Center(
